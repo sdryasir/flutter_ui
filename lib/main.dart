@@ -99,9 +99,7 @@ class MainScreen extends StatelessWidget {
                   crossAxisCount: 3,
                   children: [
                     GestureDetector(
-                      onTap: () {
-                        print("Complaints & Sujjestions");
-                      },
+                      onTap: () {},
                       child: Card(
                         elevation: 4,
                         shape: RoundedRectangleBorder(
@@ -148,9 +146,7 @@ class MainScreen extends StatelessWidget {
                       ),
                     ),
                     GestureDetector(
-                      onTap: () {
-                        print("NWF Heros");
-                      },
+                      onTap: () {},
                       child: Card(
                         elevation: 4,
                         shape: RoundedRectangleBorder(
