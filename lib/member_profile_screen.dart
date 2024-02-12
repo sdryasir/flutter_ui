@@ -11,6 +11,7 @@ class MemberProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Profile'),
+        elevation: 6,
       ),
       body: SingleChildScrollView(
         child: Column(

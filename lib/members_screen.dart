@@ -11,6 +11,7 @@ class MembersScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("Members"),
+          elevation: 6,
         ),
         body: ListView.builder(
             itemCount: 15,

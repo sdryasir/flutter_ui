@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/complaint_screen.dart';
 import 'package:flutter_ui/members_screen.dart';
 import 'package:flutter_ui/project_detail_screen.dart';
 import 'package:image_card/image_card.dart';
@@ -99,7 +100,12 @@ class MainScreen extends StatelessWidget {
                   crossAxisCount: 3,
                   children: [
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ComplaintScreen()));
+                      },
                       child: Card(
                         elevation: 4,
                         shape: RoundedRectangleBorder(

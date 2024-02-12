@@ -12,6 +12,7 @@ class ProjectDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Project Detail"),
+        elevation: 6,
       ),
       body: Column(
         children: [
